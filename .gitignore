@@ -5,3 +5,15 @@ salida/*.txt
 
 # modulos de node ya que se reconstruyen al reconstruirlos al ejecutar npm install 
 node_modules/
+
+
+# comandos de git
+# git init    -> inicializa el git
+# git add .   -> selecciona todos los archivos menos los que se ignoran
+# git commit -m "Nombre del commit" -> toma una captura de los archivos, es decir hace una copia 
+# git checkout -- .   -> carga el commit, es decir vuelve a la version guardada
+
+# comandos para cargar en gitHub
+# git remote add origin https://github.com/julitron2000/curso-node-tabla.git
+# git branch -M main
+# git push -u origin main
