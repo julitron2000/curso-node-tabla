@@ -1,0 +1,7 @@
+# Aqui se escriben todos los archivos que se van a ignorar en github
+
+# archivos de texto generados en salida
+salida/*.txt   
+
+# modulos de node ya que se reconstruyen al reconstruirlos al ejecutar npm install 
+node_modules/
